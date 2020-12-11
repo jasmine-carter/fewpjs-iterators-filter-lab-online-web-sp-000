@@ -11,9 +11,9 @@ function findMatching(drivers, name) {
 
 function fuzzyMatch(drivers, string) {
   return drivers.filter(n => {
-      return n.substring(0,1) === string;
+      return n.substring(0,2) === string;
   });
-};
+}
 
 function matchName(drivers, string) {
   return drivers.filter(function (driver) {
