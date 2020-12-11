@@ -10,10 +10,9 @@ function findMatching(drivers, name) {
 
 
 function fuzzyMatch(drivers, string) {
-  let matches = drivers.filter(n => {
-       n.substring(0,1) === string;
+  return drivers.filter(n => {
+      return n.substring(0,1) === string;
   });
-  return matches;
 };
 
 function matchName(drivers, string) {
