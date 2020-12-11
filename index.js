@@ -22,4 +22,4 @@ function matchName(drivers, string) {
       console.log(matches)
   });
     return matches;
-};
+}
